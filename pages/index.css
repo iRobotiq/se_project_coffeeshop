@@ -3,8 +3,8 @@
   min-width: 1100px;
   max-width: 1600px;
   align-items: center;
-  font-family: "Inter", Arial, sans-serif;
-  font-family: "Noto Serif", "Times New Roman", serif;
+  font-family: "Inter", "Noto Serif", Arial, sans-serif, "Times New Roman",
+    serif;
   font-size: 16px;
   line-height: 20px;
   margin-right: auto;
