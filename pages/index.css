@@ -115,10 +115,10 @@
   max-width: 438px;
   margin: 24px 0 80px;
 }
-.recipes__videos {
+.recipes__video {
   display: flex;
   gap: 40px;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 215px;
 }
 .recipes__video-caption {
