@@ -80,10 +80,10 @@
           </div>
           <div>
             <p class="recipes__video-caption">
-              <span>Aeropress recipe</span> ~5 min
+              <span>Aeropress recipe ~5 min</span>
             </p>
           </div>
-          <div class="recipes__video">
+          <div class="recipes__videos">
             <iframe
               class="recipes__iframe"
               src="https://www.youtube.com/embed/st571DYYTR8?si=BjFOyQa98SEHrQfJ"
@@ -95,11 +95,38 @@
           </div>
           <div>
             <p class="recipes__video-caption">
-              <span>French press recipe</span> ~15 min
+              <span>French press recipe ~15 min</span>
             </p>
           </div>
         </section>
         <section class="reservation" id="book-a-table"></section>
+        <h2 class="reservation__title">Book a table</h2>
+        <form action="" class="reservation_form form">
+          <fieldset class="form__fieldset">
+            <label for class="form__label">
+              Name*
+              <input type="text" class="form__input" />
+            </label>
+            <label for class="form__label">
+              Number of guests*
+              <input type="number" class="form__input" />
+            </label>
+            <label for="" class="form__label">
+              Date & time*
+              <input type="datetime-local" class="form__input" />
+            </label>
+            <label for="" class="form__label">
+              Your email*
+              <input type="email" class="form__input" />
+            </label>
+          </fieldset>
+
+          <button class="form__button">Book a table</button>
+          <label for="" class="form__label form__label_type_checkbox">
+            <input type="checkbox" class="form__checkbox" />
+            I agree with the terms of use
+          </label>
+        </form>
         <section class="menu" id="menu-selection"></section>
         <section class="about" id="contact-info"></section>
       </main>
