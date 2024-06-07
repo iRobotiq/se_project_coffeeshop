@@ -1,0 +1,69 @@
+.menu {
+  padding: 100px 0 100psx;
+  margin-top: 100px;
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.menu__title {
+  text-align: center;
+  margin: 0 0 24px;
+  max-width: 780px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.menu__subtitle {
+  text-align: center;
+  margin: 0 0 100px;
+  max-width: 780px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+.menu__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.card {
+  width: 540px;
+  margin-bottom: 100px;
+}
+.card__title {
+  margin: 0 0 32;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+.card__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.card__list-item {
+  margin-top: 16px;
+  display: flex;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.card__list-divider {
+  border-bottom: 1px solid black;
+  flex-grow: 1;
+}
