@@ -22,7 +22,11 @@
 }
 .footer__social-heading {
   margin: 0 0 20px;
-  justify-content: flex-end;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
 }
 .footer__social-icon {
   width: 16px;
@@ -50,7 +54,17 @@
   align-items: center;
   color: white;
   text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 .footer__copyright {
   margin: 108px 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
