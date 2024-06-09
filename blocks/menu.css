@@ -8,6 +8,8 @@
   background-size: cover;
 }
 .menu__title {
+  display: flex;
+  justify-content: right;
   text-align: center;
   margin: 0 0 24px;
   max-width: 780px;
@@ -26,7 +28,9 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin-left: 320px;
 }
+
 .menu__cards {
   display: flex;
   justify-content: center;

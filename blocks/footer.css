@@ -14,11 +14,21 @@
 }
 .footer__content {
   display: flex;
-  margin-left: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 .footer__logo {
   width: 105px;
   height: 39px;
+  margin-right: auto;
 }
 .footer__social-heading {
   margin: 0 0 20px;
@@ -43,10 +53,12 @@
   color: #c1c1c1;
 }
 .footer__list {
-  justify-content: flex-end;
+  justify-content: right;
   list-style-type: none;
   padding: 0;
   margin: 0;
+  margin-left: 100px;
+  margin-top: 0;
 }
 .footer__list-item {
   margin: 0 0 16px;
