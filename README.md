@@ -13,4 +13,5 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Adding more color and more interative elements to the various parts of the sections.
+Using more styles to make things unique
