@@ -32,11 +32,12 @@
 }
 .footer__social-heading {
   margin: 0 0 20px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+  margin-left: auto;
 }
 .footer__social-icon {
   width: 16px;
@@ -47,6 +48,7 @@
   display: flex;
   align-items: center;
   color: white;
+  text-decoration: none;
 }
 .footer__social-link:hover {
   animation: 1s ease-in-out;
