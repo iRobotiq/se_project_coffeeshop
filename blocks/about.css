@@ -63,6 +63,6 @@
   line-height: 30px;
   position: relative;
 }
-.about__paragraph :last-of-type {
+.about__paragraph:last-of-type {
   margin-bottom: 0;
 }

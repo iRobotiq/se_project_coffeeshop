@@ -8,6 +8,7 @@
   background-color: #ffffff;
   background-image: url(../images/background_header.svg);
   background-position: center;
+  background-size: cover;
   z-index: 1;
   position: relative;
   box-sizing: border-box;
@@ -53,6 +54,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+  align-items: end;
 }
 .header__paragraph {
   margin: 0;
